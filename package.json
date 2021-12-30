@@ -1,0 +1,24 @@
+{
+  "name": "meal-planner",
+  "version": "1.0.0",
+  "description": "family meal planner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cskaroulis/meal-planner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cskaroulis/meal-planner/issues"
+  },
+  "homepage": "https://github.com/cskaroulis/meal-planner#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2"
+  }
+}
