@@ -8,10 +8,12 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.get("/", (req, res) => {
   res.sendFile(__dirname + "/static/index.html");
 });
+
 //Route to LoginPage
 app.get("/login", (req, res) => {
   res.sendFile(__dirname + "/static/login.html");
 });
+
 //Handle the Post request for login
 app.post("/login", (req, res) => {
   let username = req.body.username;
@@ -25,4 +27,4 @@ app.post("/login", (req, res) => {
 });
 
 const port = 3000;
-app.listen(port, () => console.log(`this app is listening on port ${post}`));
+app.listen(port, () => console.log(`this app is listening on port ${port}`));
