@@ -26,5 +26,5 @@ app.post("/login", (req, res) => {
   res.sendStatus(status);
 });
 
-const port = 5000;
-app.listen(port, () => console.log(`this app is listening on port ${port}`));
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log(`this app is listening on port ${PORT}`));
