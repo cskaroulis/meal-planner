@@ -4,6 +4,9 @@ const bodyParser = require("body-parser");
 const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 
+app.use(express.json());
+app.use("/api/users", require(".api/users"));
+
 //Route to Homepage
 app.get("/", (req, res) => {
   res.sendFile(__dirname + "/static/index.html");
