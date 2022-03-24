@@ -15,7 +15,7 @@ A user will be able to:
 
 The above will be accomplished using the following components:
 
-- App: the umbrella component
+- App: the root/base-level component
 - Register: will help the user create an account
 - Login: will help the user login
 - Ingredient: will help the user manage ingredient information
